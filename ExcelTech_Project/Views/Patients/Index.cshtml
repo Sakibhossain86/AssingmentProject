@@ -1,0 +1,169 @@
+﻿@model PatientInputModel
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+    <form id="frm" asp-action="Save" asp-controller="Patients">
+        <h3>Patient infomation</h3>
+
+        @if (ViewBag.Msg=="done")
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">X</button>
+            </div>
+        }
+
+        <div class="row-2-col">
+            <label>Patient Name *</label>
+            <input type="text" asp-for="PatientName" />
+
+        </div>
+        <div class="margin-120">
+            <span asp-validation-for="PatientName" class="text-danger"></span>
+        </div>
+        <div class="row-2-col">
+            <label>Disease Name *</label>
+            <select asp-for="DiseaseInformationId" asp-items="@(new SelectList(ViewBag.DiseaseInformations as IEnumerable<DiseaseInformation>, "DiseaseInformationId","DiseaseName"))">
+                <option value="" selected>Select</option>
+            </select>
+
+        </div>
+        <div class="margin-120">
+            <span asp-validation-for="DiseaseInformationId" class="text-danger"></span>
+        </div>
+        <div class="row-2-col">
+            <label>Epilepcy *</label>
+            <select asp-for="Epilepsy" asp-items="Html.GetEnumSelectList<EpilepsyType>()">
+                <option value="" selected>Select</option>
+
+            </select>
+
+        </div>
+        <div class="margin-120">
+            <span asp-validation-for="DiseaseInformationId" class="text-danger"></span>
+        </div>
+        <div class="row-4-col">
+            <label>Other NCDs</label>
+            <select size="5" id="ncd" asp-items="@(new SelectList(ViewBag.NCDs as IEnumerable<NCD>, "NCDId","NCDName"))">
+            </select>
+            <div class="div-btns">
+                <button type="button" class="btn" id="add1">Add &gt;</button>
+                <button type="button" class="btn" id="remove1">&lt; Remove</button>
+            </div>
+            <select multiple size="5" asp-for="NCDIds">
+            </select>
+
+        </div>
+        <div class="margin-120">
+            <span asp-validation-for="NCDIds" class="text-danger"></span>
+        </div>
+        <div class="row-4-col">
+            <label>Allergies *</label>
+            <select size="5" id="allegy" asp-items="@(new SelectList(ViewBag.Allergies as IEnumerable<Allergy>, "AllergyId","AllergyName"))">
+            </select>
+            <div class="div-btns">
+                <button type="button" class="btn" id="add2">Add &gt;</button>
+                <button type="button" class="btn" id="remove2">&lt; Remove</button>
+            </div>
+            <select multiple size="5" asp-for="AllergyIds">
+            </select>
+
+        </div>
+        <div class="margin-120">
+            <span asp-validation-for="AllergyIds" class="text-danger"></span>
+        </div>
+        <div class="rigt-aligned">
+            <button type="submit" class="btn">
+                Save
+            </button>
+        </div>
+    </form>
+</div>
+@section styles{
+    <style>
+        form {
+            display: block;
+            width: 62.5%;
+            margin: .5rem auto;
+        }
+
+        .row-2-col {
+            display: grid;
+            grid-template-columns: 120px auto;
+            column-gap: 10px;
+            align-content: center;
+            align-items: center;
+            margin-block: .5rem;
+        }
+
+        .row-4-col {
+            display: grid;
+            grid-template-columns: 120px auto 90px auto;
+            column-gap: 10px;
+            align-content: center;
+            align-items: center;
+            margin-block: .5rem;
+        }
+
+        .div-btns {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .div-btns button {
+                margin-bottom: 7px;
+            }
+
+        .rigt-aligned {
+            display: flex;
+            justify-content: end;
+        }
+
+        .margin-120 {
+            margin-left: 120px
+        }
+    </style>
+}
+@section scripts {
+    <script src="~/libs/jquery/jquery.js"></script>
+    <script src="~/libs/validation/jquery.validate.js"></script>
+    <script src="~/libs/validation/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(() => {
+            $("#add1").click(function () {
+                $("#ncd option:selected").each(function () {
+                    $(this).remove().appendTo("#NCDIds");
+                });
+            });
+            $("#remove1").click(function () {
+                $("#NCDIds option:selected").each(function () {
+                    $(this).remove().appendTo("#ncd");
+                });
+            });
+            $("#add2").click(function () {
+                $("#allegy option:selected").each(function () {
+                    $(this).remove().appendTo("#AllergyIds");
+                });
+            });
+            $("#remove2").click(function () {
+                $("#AllergyIds option:selected").each(function () {
+                    $(this).remove().appendTo("#allegy");
+                });
+            });
+            $("#frm").submit(() => {
+                $("#AllergyIds").find("option").each(function () {
+                    $(this).attr('selected', true);
+                });
+                $("#NCDIds").find("option").each(function () {
+                    $(this).attr('selected', true);
+                });
+            });
+            $(".btn-close").click(()=>{
+                $(".alert").hide();
+            })
+        });
+    </script>
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+}
+#nav {
+    padding: 10px 15px;
+    background-color: rgb(238, 84, 84);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nav ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+#nav ul li
+{
+    margin-right: 5px;
+}
+#nav ul li a{
+    display: block;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 3px;
+    color: white;
+}
+#nav ul li a:hover{
+    background-color: rgb(243, 150, 150);
+    border-radius: .25rem;
+}
+.brand
+{
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 120px;
+}
+
+.container {
+    width: 97.5%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, .8);
+}
+.main {
+    min-height: calc(100vh - 130px);
+}
+.fixer
+{
+    flex: 1 1 auto;
+}
+.footer
+{
+    border-top: solid 1px #ccc;
+    padding:15px 15px 25px 15px;
+    background-color: rgba(0,0,0, .1);
+}
+input[type=text], select {
+    padding: .5rem;
+}
+.btn
+{
+    min-width: 90px;
+    
+    padding: .5rem;
+}
+.m-1
+{
+    margin: 8px;
+}
+.m-2 {
+    margin: 16px;
+}
+.my-1
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.my-2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text-grow
+{
+    flex: 1 1 auto;
+}
+#pchat 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c-1
+{
+    width: 20%;
+}
+.c-2
+{
+    width: 79%;
+}
+.flex {
+    display: flex;
+}
+.list {
+	list-style: none;
+	border-collapse: collapse;
+}
+
+.list-header {
+	padding: .25rem .5rem;
+	background-color: red;
+	color: white;
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+}
+
+.list li {
+	padding: .25rem .5rem;
+	border: solid 1px #ccc;
+
+}
+
+.list li:not(:last-child) {
+	border-bottom-width: 0px;
+}
+.text-danger
+{
+    display:block;
+    color:red;
+    font-size:.875rem;
+}
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.alert-dismissible {
+    padding-right: 3rem;
+}
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: #000;
+    
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: .5;
+    cursor:pointer;
+}
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 1.25rem  1rem;
+}

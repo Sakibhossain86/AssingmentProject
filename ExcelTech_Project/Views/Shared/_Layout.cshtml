@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/style.css" rel="stylesheet" />
+    @await RenderSectionAsync("styles", false)
+</head>
+<body>
+    <nav id="nav">
+
+        <span class="brand">Excel Tech</span>
+        <span class="fixer"></span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a asp-controller="Patients" asp-action="Index">Task UI</a></li>
+            
+
+        </ul>
+    </nav>
+    <div class="container main">
+        @RenderBody()
+    </div>
+    <footer class="footer">
+        <p>&copy; Copyright 2023</p>
+    </footer>
+    @await RenderSectionAsync("scripts", false)
+</body>
+</html>

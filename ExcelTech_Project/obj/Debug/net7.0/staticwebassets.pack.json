@@ -1,0 +1,573 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\additional-methods.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\jquery-validation-sri.json",
+      "PackagePath": "staticwebassets\\libs\\validation\\jquery-validation-sri.json"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ar.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ar.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ar.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ar.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_az.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_az.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_az.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_az.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_bg.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_bg.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_bg.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_bg.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_bn_BD.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_bn_BD.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_bn_BD.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_bn_BD.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ca.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ca.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ca.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ca.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_cs.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_cs.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_cs.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_cs.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_da.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_da.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_da.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_da.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_de.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_de.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_de.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_de.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_el.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_el.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_el.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_el.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_es.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_es.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_es.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_es.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_es_AR.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_es_AR.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_es_AR.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_es_AR.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_es_PE.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_es_PE.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_es_PE.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_es_PE.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_et.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_et.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_et.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_et.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_eu.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_eu.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_eu.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_eu.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_fa.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_fa.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_fi.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_fi.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_fi.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_fi.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_fr.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_fr.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_fr.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_fr.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ge.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ge.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ge.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ge.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_gl.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_gl.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_gl.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_gl.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_he.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_he.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_he.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_he.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_hr.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_hr.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_hr.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_hr.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_hu.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_hu.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_hu.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_hu.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_hy_AM.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_hy_AM.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_hy_AM.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_hy_AM.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_id.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_id.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_id.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_id.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_is.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_is.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_is.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_is.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_it.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_it.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_it.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_it.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ja.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ja.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ja.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ja.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ka.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ka.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ka.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ka.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_kk.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_kk.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_kk.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_kk.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ko.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ko.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ko.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ko.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_lt.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_lt.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_lt.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_lt.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_lv.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_lv.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_lv.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_lv.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_mk.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_mk.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_mk.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_mk.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_my.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_my.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_my.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_my.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_nl.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_nl.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_nl.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_nl.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_no.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_no.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_no.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_no.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_pl.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_pl.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_pl.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_pl.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_pt_BR.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_pt_BR.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_pt_BR.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_pt_BR.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_pt_PT.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_pt_PT.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_pt_PT.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_pt_PT.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ro.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ro.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ro.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ro.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ru.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ru.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ru.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ru.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sd.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sd.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sd.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sd.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_si.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_si.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_si.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_si.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sk.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sk.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sk.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sk.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sl.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sl.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sl.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sl.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sr.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sr.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sr.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sr.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sr_lat.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sr_lat.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sr_lat.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sr_lat.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sv.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sv.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_sv.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_sv.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_th.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_th.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_th.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_th.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_tj.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_tj.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_tj.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_tj.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_tr.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_tr.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_tr.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_tr.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_uk.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_uk.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_uk.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_uk.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ur.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ur.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_ur.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_ur.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_vi.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_vi.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_zh.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_zh.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_zh.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_zh.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_zh_TW.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_zh_TW.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\messages_zh_TW.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\messages_zh_TW.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_de.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_de.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_de.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_de.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_es_CL.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_es_CL.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_es_CL.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_es_CL.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_fi.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_fi.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_fi.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_fi.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_it.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_it.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_it.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_it.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_nl.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_nl.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_nl.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_nl.min.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_pt.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_pt.js"
+    },
+    {
+      "Id": "D:\\ExcelTech_Project_Solution\\ExcelTech_Project\\wwwroot\\libs\\validation\\localization\\methods_pt.min.js",
+      "PackagePath": "staticwebassets\\libs\\validation\\localization\\methods_pt.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ExcelTech_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ExcelTech_Project.props",
+      "PackagePath": "build\\ExcelTech_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ExcelTech_Project.props",
+      "PackagePath": "buildMultiTargeting\\ExcelTech_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ExcelTech_Project.props",
+      "PackagePath": "buildTransitive\\ExcelTech_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
